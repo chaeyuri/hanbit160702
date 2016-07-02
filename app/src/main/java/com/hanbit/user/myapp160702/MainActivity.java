@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
-    Button btnCalc, btnCalendar, btnHome;
+    Button btnCalc, btnCalendar, btnHome, btnIvImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,10 +17,11 @@ public class MainActivity extends Activity implements View.OnClickListener{
         btnCalc = (Button) findViewById(R.id.btnCalc);
         btnCalendar = (Button) findViewById(R.id.btnCalendar);
         btnHome = (Button) findViewById(R.id.btnHome);
+        btnIvImage = (Button) findViewById(R.id.btnIvImage);
 
         btnCalc.setOnClickListener(this); //여기서 디스는 나에게 라는 뜻임, 나에게 있는 클릭리스너에있는 걸 btnCalc에 넣어라
         btnCalendar.setOnClickListener(this);
-
+        btnIvImage.setOnClickListener(this);
     }
 
     @Override
@@ -33,6 +34,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
             case R.id.btnCalendar :
                 this.startActivity(new Intent(this,CalendarActivity.class));
                 break;
+
+            case R.id.btnIvImage :
+                this.startActivity(new Intent(this,ImageActivity.class));
 
         }
     }

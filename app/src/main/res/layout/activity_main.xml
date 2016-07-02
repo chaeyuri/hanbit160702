@@ -19,6 +19,15 @@
         android:text="달력"
         android:textSize="30dp"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIvImage"
+        android:text="이미지뷰"
+        android:textSize="30dp"/>
+
+
+
 
 
 
