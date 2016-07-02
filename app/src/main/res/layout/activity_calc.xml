@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="계산식이 저장되는 공간"
+        android:textSize="35dp"
+        android:ems="10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:textSize="35dp"
+        android:id="@+id/edit1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="0"
+        android:textSize="35dp"
+        android:id="@+id/edit2"/>
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="더하기"/>
+    <Button
+        android:id="@+id/btnMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="뺄셈"/>
+    <Button
+        android:id="@+id/btnMul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="곱하기"/>
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나누기"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000FF"
+        android:text="계산결과 : "
+        android:textSize="35dp"
+        android:ems="10"
+        android:id="@+id/txtResult"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHome"
+        android:text="홈으로"/>
+
+
+
+</LinearLayout>
