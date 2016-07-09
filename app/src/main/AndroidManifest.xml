@@ -15,9 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CalcActivity" />
-        <activity android:name=".CalendarActivity" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".calc.CalcActivity" />
+        <activity android:name=".calc.CalendarActivity" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".kaup.KaupActivity" />
+        <activity android:name=".Member.JoinActivity" />
+        <activity android:name=".Member.LoginActivity" />
+        <activity android:name=".ContactActivity"></activity>
     </application>
 
 </manifest>

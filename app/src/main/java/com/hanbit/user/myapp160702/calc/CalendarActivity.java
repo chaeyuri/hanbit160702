@@ -1,10 +1,13 @@
-package com.hanbit.user.myapp160702;
+package com.hanbit.user.myapp160702.calc;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.hanbit.user.myapp160702.MainActivity;
+import com.hanbit.user.myapp160702.R;
 
 public class CalendarActivity extends Activity implements View.OnClickListener {
 

@@ -27,6 +27,7 @@ public class ImageActivity extends Activity implements View.OnClickListener{
         btnNextImage.setOnClickListener(this);
 
         btnPrvImage.setVisibility(View.INVISIBLE); //가장 첫장은 이전버튼이 필요없음.
+        // 현재 된거는 튤립->코알라->펭귄인데 다시 튤립으로 못감
     }
 
     @Override
